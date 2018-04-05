@@ -1,0 +1,84 @@
+body {
+    text-align: center;
+    padding: 0;
+    font-size: 20pt;
+    background: #304352;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #d7d2cc, #304352);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #d7d2cc, #304352);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+,Opera 12+, Safari 7+ */
+}
+
+.container {
+    background-color: #e0e6e9;
+    margin: 40px auto;
+    padding: 10px;
+    margin-bottom: 0;
+    width: 280px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.text {
+    width: 260px;
+    height: 60px;
+    background-color: white;
+    margin-left: 9px;
+    margin-bottom: 5px;
+    padding: 0;
+    border: 1px solid grey;
+    outline: darkgrey outset thin;
+}
+
+#main {
+    margin: 0;
+    padding: 0;
+    font-size: 28pt;
+    text-align: right;
+    width: 252px;
+    height: 40px;
+}
+
+#sub {
+    margin: 0;
+    padding: 0;
+    font-size: 12pt;
+    text-align: right;
+    width: 250px;
+    height: 20px;
+}
+
+button {
+    margin: 2px 1px;
+    background-color: #fdf8f3;
+}
+
+button:focus {
+    outline: none;
+}
+
+.button {
+    height: 60px;
+    width: 60px;
+}
+
+.button-large {
+    height: 60px;
+    width: 128px;
+    background-color: #a72d45;
+    color: white;
+}
+
+.operator {
+    background-color: #f38303;
+}
+
+.equal {
+    background-color: #adadad;
+    color: black;
+}
+
+footer {
+    font-size: 10pt;
+    margin-top: 5px;
+}
